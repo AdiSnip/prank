@@ -17,9 +17,13 @@ buttons.forEach((button)=>{
     })
 })
 yes.addEventListener("click",()=>{
-    alert("😊😂🤣😁🤣🤣")
-    if (c<list.length){
-        question.innerText = `${list[c]}`
-        c++
+    if(question.innerText === "tu single hai na"){
+        alert("nikal saale yaha se🤣😁")
+    }else{
+        alert("😊😂🤣😁🤣🤣")
+        if (c<list.length){
+            question.innerText = `${list[c]}`
+            c++
+        }
     }
 })
